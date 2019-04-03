@@ -15,14 +15,40 @@ body {
     overflow-x: hidden;
     font-weight: normal;
 
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
+
+    background-image: url("../../static/assets/pictures/mainimg.jpg");
+    background-repeat: no-repeat;
+
+    //the below height dimension fixed the fact that the background had a white line showing on  bottom, meaning the background was not covering completely on the bottom
+    height: 100vh;
+    
+    
+    margin: 0px;
+    background-size:cover;
+    
+
 }
 
 .app {
     margin-top: 2rem;
     display: grid;
     justify-items: center;
+}
+
+.nav-links {
+
+   display: flex; 
+   justify-content: space-between;
+   width: 80vw;
+   
+}
+
+.title {
+    display: flex;
+    justify-content: center;
 }

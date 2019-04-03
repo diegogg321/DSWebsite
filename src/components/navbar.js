@@ -6,8 +6,14 @@ export default function() {
     <div className="nav-links">
       <NavLink exact to='/'>Home</NavLink>
       <NavLink to="/about" >About</NavLink>
+      
+     
+      <NavLink to="/analysis" >Analysis</NavLink>
+      <NavLink to="/advanced" >Advanced Analysis</NavLink>
+      <NavLink to="/biomedical" >Biomedical Data Science</NavLink>
+      <NavLink to="/economics" >Health Economics</NavLink>
       <NavLink to="/contact" >Contact</NavLink>
-      <NavLink to="/counter" >Counter</NavLink>
+      <NavLink to="/blog" >Blog</NavLink>
     </div>
   );
 }
